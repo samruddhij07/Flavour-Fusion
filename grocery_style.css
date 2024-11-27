@@ -1,0 +1,80 @@
+/* Grocery List Section */
+.grocery-list {
+    background-color: #99e56c; 
+    padding: 40px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto; 
+    max-width: 800px; 
+    text-align: center; 
+}
+
+.grocery-list h2 {
+    font-size: 2em; 
+    margin-bottom: 20px; 
+    color: #0b3711; 
+}
+
+#groceryForm {
+    display: flex; 
+    justify-content: center; 
+    margin-bottom: 30px; 
+}
+
+#groceryForm input {
+    padding: 10px; 
+    margin-right: 10px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+}
+
+#groceryForm input[type="text"] {
+    width: 200px; 
+}
+
+#groceryForm .submit-button {
+    height: 40px;
+    width: 100px; 
+    background-color: #047613; 
+    color: #ffffff;
+    padding: 5px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 15px; 
+}
+
+#groceryForm .submit-button:hover {
+    background-color: #39890e; 
+}
+
+#groceryList {
+    list-style: none; 
+    padding: 0; 
+}
+
+#groceryList li {
+    background-color: #ffffff; 
+    margin-bottom: 10px; 
+    padding: 15px; 
+    border-radius: 5px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    font-size: 1.1rem; 
+}
+
+#groceryList li .edit-btn,
+#groceryList li .delete-btn {
+    background-color: #f3a683; 
+    border: none; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+    border-radius: 3px; 
+    color: #ffffff; 
+    margin-left: 10px; 
+}
+
+#groceryList li .delete-btn {
+    background-color: #e74c3c; 
+}

@@ -1,0 +1,54 @@
+/* Dietary Restrictions Section Styles */
+
+.dietary-restrictions {
+    background-color: #e8ecd6; 
+    padding: 40px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto; 
+    max-width: 800px; 
+    text-align: center;
+}
+
+.dietary-restrictions h2 {
+    font-size: 40px;
+    color: #004a2f;
+    font-family: "Unna", serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.dietary-restrictions label {
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    max-width: 800px;
+    color: #278927;
+}
+
+.dietary-restrictions input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    font-size: 1em; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.dietary-restrictions .submit-button {
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 4px;
+    font-size: 1em; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.dietary-restrictions .submit-button:hover {
+    background-color: #218838;
+}

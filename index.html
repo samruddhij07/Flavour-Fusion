@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavour Fusion</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="styles2.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Imperial+Script&family=Pacifico&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Pacifico&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Gowun+Dodum&family=Imperial+Script&family=Pacifico&family=Playwrite+CU:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <!-- <img src="unnamed.png" alt="Flavour Fusion Logo" class="logo-image"> -->
+            <span>Flavour Fusion</span>
+        </div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#dietary-restrictions">Plan</a></li>
+            <li><a href="#start">Grocery Items</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to Flavour Fusion</h1>
+            <p>Your AI-driven companion for exciting, healthy, and zero-waste recipes!</p>
+            <button class="cta-button" onclick="scrollToSection('start')">Explore Now</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Flavour Fusion helps you organize your groceries and reduce waste with AI-generated recipes that cater to your unique diet and preferences.</p>
+        </div>
+    </section>
+
+    <!-- Start Section-->
+    <section class="start" id="start">
+        <div class="container">
+            <h2>Add Grocery Items</h2>
+            <button type = "button" onclick = "location.href='./grocery.html'">ADD</button>
+        </div>
+    </section>
+
+    <!-- Plan your Diet Section -->
+<section class="dietary-restrictions" id="dietary-restrictions">
+    <div class="container">
+        <h2>Plan Your Diet</h2>
+        <p>Add dietary restrictions according to you</p>
+        <button type = "button" onclick = "location.href='./diet_res.html'">PLAN</button>
+    </div>
+</section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="feature-box">
+                <h3>AI-Driven Recipes</h3>
+                <p>Discover new recipes based on what you have and dietary requirements.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Organized Grocery Inventory</h3>
+                <p>Keep track of your groceries and minimize food waste.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Health Insights</h3>
+                <p>Get personalized food recommendations for a healthier lifestyle.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out for any inquiries or suggestions.</p>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Flavour Fusion. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
